@@ -8,6 +8,10 @@ connectivity, and a WebAuthn-protected administrator panel.
 Every endpoint path the game client knows is routed. Endpoints without an implementation answer `{"results":{}}`
 and log a `stub endpoint` warning, so a client session shows which ones it calls.
 
+## AI Usage Disclosure
+
+This project was coded predominantly using an LLM.
+
 ## Contents
 
 - [Build](#build)
